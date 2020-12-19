@@ -1,0 +1,683 @@
+
+body{
+	background-image: url("images/background2.png");/*Background custom made by Taziwa Mushayabasa in software "Paint.net" https://www.getpaint.net/ */
+	background-color: #fc9c9c;
+}
+
+/*Cover page, Sophie Quinn*/
+/*header, https://www.w3schools.com/css/css_navbar_horizontal.asp */
+
+#headersophie{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #ac040c;
+  overflow: hidden;
+  background-color: #643424;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+} 
+
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+
+ul2 {
+	position: absolute;
+	top: 890px;
+	margin: 0 auto;
+	left: 0px;
+	background-color: black;
+	padding: 0px;
+	text-align: center;
+	font-size: 30px;
+	width: 100%;
+	font-family: 'Caveat', cursive;
+}
+
+/*end header*/
+
+#wt{ /*logo*/
+	position: absolute;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
+	position: relative;
+	top: 10px;
+	border-radius: 25px; /* https://www.w3schools.com/css/css3_borders.asp  */
+	border-style: solid;
+}
+
+h1{ /*title*/
+	background-color: #ac040c;
+	width: 600px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 60px;
+	border: 3px solid white;
+	text-shadow: 1px 1px 1px white;
+}
+
+#Dripmin{ /*text box under big pic 1*/
+	position: absolute;
+	top: 911px;
+	margin: 0 auto;
+	background-color: #ac040c;
+	padding: 53px;
+	width: 320px;
+	text-align: center;
+	font-size: 30px;
+	border-style: solid;
+}
+
+#Dripmin a{
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+
+#Dripmin a:hover{
+	background-color: #111;
+}
+
+#Dripmin2{ /*text box under big pic 2*/
+	position: absolute;
+	top: 911px;
+	margin: 0 auto;
+	left: 430px;
+	background-color: #ac040c;
+	padding: 53px;
+	width: 315px;
+	text-align: center;
+	font-size: 30px;
+	border-style: solid;
+}
+
+#Dripmin2 a{
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+
+#Dripmin2 a:hover{
+	background-color: #111;
+}
+
+/* big images */
+#ck2{
+	float: left;
+	border-color: brown;
+	border-style: double;
+	border-width: 12px;
+}
+
+#cs1{
+	float: left;
+	border-color: brown;
+	border-style: double;
+	border-width: 12px;
+}
+
+/*small images */
+#ck4{
+	position: absolute;
+	float: left;
+	border-radius: 25px; /* https://www.w3schools.com/css/css3_borders.asp  */
+	border-color: brown;
+	border-style: double;
+	border-width: 8px;
+	left: 860px;
+}
+
+#cs2{
+	position: absolute;
+	float: left;
+	border-radius: 25px; /* https://www.w3schools.com/css/css3_borders.asp  */
+	border-color: brown;
+	border-style: double;
+	border-width: 8px;
+	left: 1025px;
+}
+
+#sc1{
+	position: absolute;
+	float: left;
+	border-radius: 25px; /* https://www.w3schools.com/css/css3_borders.asp  */
+	border-color: brown;
+	border-style: double;
+	border-width: 8px;
+	left: 1190px;
+}
+
+#ck3{
+	position: absolute;
+	float: left;
+	border-radius: 25px; /* https://www.w3schools.com/css/css3_borders.asp  */
+	border-color: brown;
+	border-style: double;
+	border-width: 8px;
+	left: 860px;
+	top: 568px;
+}
+
+#sc2{
+	position: absolute;
+	float: left;
+	border-radius: 25px; /* https://www.w3schools.com/css/css3_borders.asp  */
+	border-color: brown;
+	border-style: double;
+	border-width: 8px;
+	left: 1025px;
+	top: 568px;
+}
+
+#pt1{
+	position: absolute;
+	float: left;
+	border-radius: 25px; /* https://www.w3schools.com/css/css3_borders.asp  */
+	border-color: brown;
+	border-style: double;
+	border-width: 8px;
+	left: 1190px;
+	top: 568px;
+}
+
+/*footer, https://www.w3schools.com/css/css_navbar_horizontal.asp */
+#footerSQ{
+	position: absolute;
+	top: 1200px;
+	margin: 0 auto;
+	left: 0px;
+	background-color: black;
+	padding: 0px;
+	text-align: center;
+	font-size: 20px;
+	width: 100%;
+	font-family: 'Caveat', cursive;
+}
+/*end of footer*/
+
+p111{
+	position: absolute;
+	top: 300px;
+	float: left;
+	color: green;
+	background-color: #fc845c;
+	width: 1000px;
+	font-size: 40px;
+	border-radius: 30px;
+	text-shadow: 1px 1px 1px white;
+}
+
+p112{
+	position: absolute;
+	top: 300px;
+	float: left;
+	color: red;
+	background-color: #fc845c;
+	width: 1000px;
+	font-size: 40px;
+	border-radius: 30px;
+	text-shadow: 1px 1px 1px white;
+}
+
+#para3{
+	position: absolute;
+	top: 100px;
+	float: left;
+	font-size: 50px;
+	background-color: #ac040c;
+	width: 1000px;
+	text-shadow: 2px 2px 2px black;
+	border: solid;
+	color: white;
+	border-radius: 25px; /* https://www.w3schools.com/css/css3_borders.asp  */
+}
+
+}
+
+/*End of Sophie Quinn CSS Section for Page 1 and 5*/
+
+/*Page done by Taziwa Mushayabasa*/
+/*menu style tags*/
+
+/*This is the banner at the bottom of the page*/
+#footertaz2{
+    position: absolute; /*This is to hold it in place*/
+    top: 100px; /*This is for positioning it toward the bottom of the page*/
+    margin: 0 auto;
+    left: 0px;
+    background-color: black; /*This is the background color*/
+    padding: 0px; 
+    font-size: 30px; /*This is for resizing the font*/
+    width: 100%; 
+	font-family: 'Caveat', cursive;
+}
+
+/*This is the large menu title*/
+#menutaztitle{
+	text-align: center; /*This is for the text to be centered*/
+	text-decoration: underline; /*this is for the text to have a line underneath */
+	font-size:22px; /*font size*/
+	color: pink; 
+	font-family: 'Abril Fatface', cursive; /*this font is used for the title*/
+}
+
+/*This is the large central menu*/
+#menutaz{
+	margin-left:600px; /*This is used to position the menu*/
+	width: 40%; /*width of menu on the page*/
+	background-color: white;
+	float:right; /*this is used to position the menu also*/
+	position: absolute; 
+	border-style: double; /* this is for the border style*/
+	border-width:8px; /*this is for the border width*/
+	border-color: brown;
+	font-family: 'Lobster Two', cursive;
+}
+
+/*this tag is used to control all images on this section of the website at once*/
+#imgtaz{
+	float:left; 
+	padding: 8px;
+	margin-right:60%; /*this is used to position images easier, by setting a margin which they cannot pass through on the right*/
+	margin-left:20%; /* this is used to position images easier, by setting a margin which they cannot pass through on the left*/
+	border-style: double; /* this is used to stylise the border*/
+	border-width:8px; /*this is the border width*/
+	border-color: brown;
+}
+
+
+
+/*This tag is for stylised titles*/
+span{
+	color: pink;
+	font-size: 16px;
+	text-align: center-right; /*This is used to position text to ideal position*/
+	position: relative;
+	height: 5%; /* This was used to make the height to personal preference on the webpage*/
+	text-decoration: underline;
+	font-family: 'Abril Fatface', cursive;
+}
+
+
+/*These tags are for the navigation bar*/
+li {
+  display: inline;
+  text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: brown;
+	font-family: 'Caveat', cursive;
+	text-align: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/*This tag is used for the navigation bar to highlight if interacted with*/
+li a:hover {
+  background-color: #111;
+}
+
+/*Page done by Taziwa Mushayabasa*/
+/*Support page*/
+
+/*This is the bottom of the page*/
+#footertaz{
+    position: absolute;
+    top: 1000px; /*This is used to position the footer at the bottom of the page*/
+    margin: 0 auto; /*This is to have the margin positioned normally*/
+    left: 0px;
+    background-color: black;
+    padding: 0px;
+    text-align: center;
+    font-size: 30px;
+    width: 100%; 
+	font-family: 'Caveat', cursive;
+}
+
+/*this is the first box to the left*/
+#Maintaz{
+	width: 35%;
+	float:left; /*This tag is used to position the first box*/
+	background-color: white;
+	padding:20px;
+	font-size:18px;
+	margin-left:100px; /*This tag is used to alter position of first box in a more precise way*/
+	position:relative; 
+	text-align: center; /*Aligns text in the middle*/
+	border-style: double;
+	border-width:8px;
+	border-color: brown;
+	font-family: 'Lobster Two', cursive;
+}
+
+/* this is the second box to the right*/
+/*Uses similiar properties to first box*/
+#Main2taz{
+	width: 35%;
+	float:left;
+	background-color: white;
+	padding:20px;
+	font-size:18px;
+	margin-left:100px;
+	position:relative;
+	text-align: center;
+	border-style: double;
+	border-width:8px;
+	border-color: brown;
+	font-family: 'Lobster Two', cursive;
+
+}
+
+/*this is the third box in the bottom left*/
+/*Uses similiar properties to first box*/
+#Main3taz{
+	width: 35%;
+	float:left;
+	background-color: white;
+	padding:20px;
+	font-size:18px;
+	margin-left:100px;
+	position:relative;
+	text-align: center;
+	border-style: double;
+	border-width:8px;
+	border-color: brown;
+	font-family: 'Lobster Two', cursive;
+
+}
+
+/*this is the final box in the bottom right*/
+/*Uses similiar properties to first box*/
+#Questiontaz{
+	bottom: 20px;
+	width: 35%;
+	float:left;
+	background-color: white;
+	padding:20px;
+	font-size:18px;
+	margin-left:100px;
+	position:relative;
+	text-align: center;
+	border-style: double;
+	border-width:8px;
+	border-color: brown;
+	font-family: 'Lobster Two', cursive;
+
+}
+
+
+/*1316 or less for laptop/tablet screens*/
+@media screen and (max-width: 1024px){
+	
+	
+	#menutaz{
+		position: relative;
+		margin-left:25%;
+		margin-right: 20%;
+		width: 65%; /*Used to change width of the page*/
+		top: 50px; /*This was used to stop menu from overlapping the bottom of the page*/
+		
+	}
+	
+	#imgtaz{
+		margin: 0 auto; /*This was used to override original margin-left tag for images to be suitable for a different device length*/
+		position: relative;
+		
+	}
+		
+/*578 or less for phone screens*/
+@media screen and (min-width: 578px){
+	
+	/*This is for the menu page*/ 
+	#menutaz{
+		position:relative;
+		height: 20%;
+		top:10px;
+	}
+	
+	/*This is for the support page*/
+	#Maintaz{
+		left: 140px;/*Used to center box in the page to be suitable for mobile phones*/
+		width: 50%;
+		height: 180px; /*Used to correct height to be suitable for mobile phones*/
+		font-size: 15px;
+		padding: 10px;
+	}
+	
+	#Main2taz{
+		left: 140px;/*Used to center box in the page to be suitable for mobile phones*/
+		width: 50%;
+		height: 180x; /*Used to correct height to be suitable for mobile phones and other devices*/
+		font-size: initial;
+		padding:10px;
+	}
+	
+	#Main3taz{
+		left: 140px;/*Used to center box in the page to be suitable for mobile phones*/
+		width: 50%;
+		height: 180px; /*Used to correct height to be suitable for mobile phones and other devices*/
+		font-size: 15px;
+		padding: 10px;
+	}
+	
+	#Questiontaz{
+		left: 140px; /*Used to center box in the page to be suitable for mobile phones*/
+		width: 50%;
+		height: 180px; /*Used to correct height to be suitable for mobile phones and other devices*/
+		font-size: 15px;
+		padding: 10px; 
+		top: 1px; /*Used because of small positioning error, makes box not overlap third box*/
+	} 
+	
+}
+	
+	#commentKF{
+	background-color: white;
+	border-color: brown;
+	border-style: double;
+	border-width: 8px;
+	padding: 16px;
+}
+	
+/*header, https://www.w3schools.com/css/css_navbar_horizontal.asp */
+
+#headerkayla{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: brown;
+	font-family: 'Caveat', cursive;
+}
+
+li{
+	display: inline;
+	float: left;
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+li a: hover{
+	background-color: black;
+}
+
+#footerKF{
+	position: absolute;
+	top: 700px;
+	margin: 0 auto;
+	left: 0px;
+	background-color: black;
+	padding: 0px;
+	text-align: center;
+	font-size: 20px;
+	width: 100%;
+	font-family: 'Caveat', cursive;
+}
+
+/*Kayla webpage*/
+/*  https://www.youtube.com/watch?v=Ep78KjstQuw */
+.rating {
+  padding-top: 20px;
+  align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotateY(180deg);
+  display: flex;
+}
+
+.rating input {
+  display: none;
+}
+
+.rating label {
+  display: block;
+  cursor: pointer;
+  width: 50px;
+}
+
+.rating label:before {
+  content: '\f005';
+  font-family: fontAwesome;
+  position: relative;
+  display: block;
+  font-size: 50px;
+  color: #101010;
+}
+
+.rating label:after {
+  content: '\f005';
+  font-family: fontAwesome;
+  position: absolute;
+  display: block;
+  font-size: 50px;
+  color: #FFFF00;
+  top: 0;
+  opacity: 0;
+  transition: .5s;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+
+.rating label:hover:after,
+.rating label:hover ~ label:after,
+.rating input:checked ~ label:after {
+  opacity: 1;
+}
+
+/*  https://www.youtube.com/watch?v=Ep78KjstQuw */
+.rating {
+  padding-top: 20px;
+  align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotateY(180deg);
+  display: flex;
+}
+
+.rating input {
+  display: none;
+}
+
+.rating label {
+  display: block;
+  cursor: pointer;
+  width: 50px;
+}
+
+.rating label:before {
+  content: '\f005';
+  font-family: fontAwesome;
+  position: relative;
+  display: block;
+  font-size: 50px;
+  color: #101010;
+}
+
+.rating label:after {
+  content: '\f005';
+  font-family: fontAwesome;
+  position: absolute;
+  display: block;
+  font-size: 50px;
+  color: #FFFF00;
+  top: 0;
+  opacity: 0;
+  transition: .5s;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+
+.rating label:hover:after,
+.rating label:hover ~ label:after,
+.rating input:checked ~ label:after {
+  opacity: 1;
+}
+	
+
+}
+/*Sophie Quinn Page 6
+https://www.w3schools.com/howto/howto_css_contact_form.asp */
+
+input[type=text], select, textarea{ /*works with the text and textboxed*/
+	width: 1460px;
+	padding: 10px;
+	border: 2px solid black;
+	border-radius: 2px;
+	box-sizing: border-box;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	display:inline;
+	background-color: #e6e6e6;
+}
+
+input[type=submit]{ /*focuses on the submit button*/
+	cursor: pointer;
+	padding: 8px 10px;
+}
+
+input [type=submit]:hover{ /*works on the mouse hovering over the submit button*/
+	background-color: gray;
+}
+
+.container{ /*this works on the box that holds the text and textboxes*/
+	background-color: white;
+	border-radius: 10px;
+	padding: 10px;
+	border: solid grey;
+}
+
+/*End of Sophie Quinn page 6*/
